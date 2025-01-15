@@ -34,7 +34,7 @@ export default function PsychologistLandingPage() {
       </header>
 
       {/* Main Content */}
-      <main className="container px-4 pb-4 lg:px-0 mx-auto mt-6 lg:mt-12 bg-zinc-50  leading-9">
+      <main className="container px-4 pb-4 xl:px-0 mx-auto mt-6 lg:mt-12 bg-zinc-50 leading-9 relative ">
         <Tabs
           defaultValue="Βιογραφικό"
           className="w-full"
@@ -67,7 +67,7 @@ export default function PsychologistLandingPage() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-zinc-600 text-lg lg:text-2xl !leading-relaxed">
+              <p className="text-zinc-700 text-lg lg:text-2xl !leading-relaxed">
                 Η Ναταλία Παπουλάκη είναι Κλινική Ψυχολόγος. Αποφοίτησε από το
                 Τμήμα Ψυχολογίας του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης
                 και ολοκλήρωσε μεταπτυχιακές σπουδές στη Κλινική Ψυχολογία στο
@@ -97,10 +97,10 @@ export default function PsychologistLandingPage() {
               transition={{ duration: 0.6 }}
             >
               <div className="flex flex-col gap-4 mb-8">
-                <h3 className="text-2xl lg:text-4xl font-bold text-gray-800 mb-2">
+                <h3 className="text-2xl lg:text-4xl font-bold text-gray-800">
                   Ψυχοθεραπεία Ενηλίκων
                 </h3>
-                <p className="text-base lg:text-2xl">
+                <p className="text-zinc-700 text-base lg:text-2xl tracking-wide">
                   Η ψυχοθεραπεία αφορά την αναζήτηση βοήθειας για ένα ευρύ φάσμα
                   δυσκολιών, όπως το άγχος, οι αλλαγές στη διάθεση, ο ύπνος, το
                   φαγητό, τα ζητήματα σχέσεων, θέματα υγείας, σημαντικές αλλαγές
@@ -119,10 +119,10 @@ export default function PsychologistLandingPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-4 mb-8">
-                <h3 className="text-2xl lg:text-4xl font-bold text-gray-800 mb-2">
+                <h3 className="text-2xl lg:text-4xl font-bold text-gray-800 ">
                   Συμβουλευτική Ενηλίκων{" "}
                 </h3>
-                <p className="text-base lg:text-2xl">
+                <p className="text-zinc-700 text-base lg:text-2xl tracking-wide">
                   Η συμβουλευτική αφορά μια σύντομη διαδικασία για τη διαχείριση
                   συγκεκριμένων προβλημάτων και κρίσεων του παρόντος. Παρέχεται
                   ένα ασφαλές και υποστηρικτικό περιβάλλον για την κατανόηση
