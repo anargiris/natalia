@@ -1,5 +1,4 @@
-import { EB_Garamond } from "next/font/google";
-import { Noto_Serif } from "next/font/google";
+import { Didact_Gothic } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
@@ -7,22 +6,16 @@ export const metadata = {
   description: "Ναταλία Παπουλάκη - Κλινική Ψυχολόγος",
 };
 
-const garamond = EB_Garamond({
+const mont = Didact_Gothic({
   subsets: ["latin"],
-  variable: "--font-garamond",
-});
-
-const serif = Noto_Serif({
-  subsets: ["latin"],
-  variable: "--font-serif",
+  variable: "--font-mont",
+  weight: ["400"],
 });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${garamond.variable} ${serif.variable} antialiased font-serif`}
-      >
+      <body className={`${mont.variable}  antialiased font-mont`}>
         {children}
       </body>
     </html>
