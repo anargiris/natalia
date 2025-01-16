@@ -9,7 +9,7 @@ export default function PsychologistLandingPage() {
   const [activeTab, setActiveTab] = useState("Βιογραφικό");
 
   return (
-    <div className="min-h-screen bg-zinc-50">
+    <div className="min-h-screen bg-zinc-50 relative">
       {/* Header */}
       <header className="relative h-[30vh] xl:h-[40vh] overflow-hidden">
         <Image
@@ -55,7 +55,7 @@ export default function PsychologistLandingPage() {
                     transition={{ type: "spring", bounce: 0, duration: 0.7 }}
                   />
                 )}{" "}
-                <span className="relative z-20 text-base xl:text-2xl font-medium">
+                <span className="relative z-20 text-lg xl:text-2xl font-medium">
                   {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 </span>
               </TabsTrigger>
