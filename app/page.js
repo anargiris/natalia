@@ -9,7 +9,7 @@ export default function PsychologistLandingPage() {
   const [activeTab, setActiveTab] = useState("Βιογραφικό");
 
   return (
-    <div className="min-h-screen bg-zinc-50 relative">
+    <div className="min-h-screen bg-zinc-100 relative">
       {/* Header */}
       <header className="relative h-[30vh] xl:h-[40vh] overflow-hidden">
         <Image
@@ -18,7 +18,7 @@ export default function PsychologistLandingPage() {
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-300/70 to-purple-200/90 opacity-60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-300/50 to-purple-200/50 opacity-60"></div>
         <div className="absolute bottom-0 left-0 p-4 xl:p-8 w-full">
           <div className="container mx-auto py-8 flex flex-col xl:flex-row gap-5 xl:gap-0 items-center">
             <div className=" text-zinc-800 text-left">
@@ -34,7 +34,7 @@ export default function PsychologistLandingPage() {
       </header>
 
       {/* Main Content */}
-      <main className="container px-4 pb-4 mx-auto mt-6 xl:mt-12 bg-zinc-50 leading-9 relative ">
+      <main className="container px-4 pb-4 mx-auto mt-6 xl:mt-12  leading-9 relative ">
         <Tabs
           defaultValue="Βιογραφικό"
           className="w-full"
